@@ -1,0 +1,74 @@
+/*Normal Tags*/
+body{
+    font-family: 'Muli', sans-serif;
+     background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+
+input{
+    background: #f7f7f7;
+    padding: 13px 13px 13px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 0px 8px 0px 8px;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    width: 0;
+    background: red;
+    color: white;
+    height: 100%;
+    margin: 0 8px 0 -8px;
+    cursor: pointer;
+    width: 0;
+    transition: 0.2s linear;
+}
+
+li:hover span{
+    width: 20px;
+}
+
+/*ID Tags*/
+#container{
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    width: 50%;
+    margin: 100px auto;
+    background: #f7f7f7;
+}
+
+#btnAddTodo{
+    display: inline;
+    background: none;
+    margin-left: 65%;
+}
+
+/*Class Tags*/
+.checked{
+    text-decoration: line-through;
+    color: gray;
+}
